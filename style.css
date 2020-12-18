@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #f1f3f6 !important;
+    background: #f5f5f5 !important;
  
 }
 body::-webkit-scrollbar {
@@ -110,4 +110,46 @@ i {
 .schedule{
     overflow-y: scroll;
     height: 350px;
+}
+
+/* post now border */
+
+.speak-loud{
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    border-radius: 50px;
+    font-size: small;
+    font-weight: bold;
+}
+.speak-loud:hover{
+    background-color: #EBEBEB;
+}
+
+/* rounded card */
+.card{
+    border-radius: 10px;
+    padding: 5px;
+}
+.card-header{
+    background-color: #f5f5f5 !important;
+}
+.sharebtm{
+    font-weight: bold;
+}
+.sharebtm:hover{
+    text-decoration: none;
+}
+/* second card */
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+.schl{
+    font-size: small;
+    font-weight: 500;
+    line-height: 1em;
+}
+/* see more */
+#text{
+    display: none;
 }
